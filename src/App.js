@@ -3,7 +3,9 @@ import React from 'react';
 import Footer from './Footer';
 import Header from './Header';
 import Navigation from './Navigation';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Routes } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom'
+
 
 // Import your page components
 import Home from './Home';
