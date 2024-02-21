@@ -16,8 +16,11 @@ import Contact from './Contact';
 
 function App() {
   return (
+    <div className="flex flex-col min-h-screen">
     <Router>
       <Header />
+      <div className="flex-grow">
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -25,8 +28,11 @@ function App() {
         <Route path="/personal" element={<Personal />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      </div>
+
       <Footer />
     </Router>
+    </div> 
   );
 }
 

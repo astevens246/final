@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about">
       <h2>About Me</h2>
-      <p>Your bio goes here...</p>
+      <p>About info goes here...</p>
     </section>
   );
 };

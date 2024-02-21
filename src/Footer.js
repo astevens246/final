@@ -4,10 +4,11 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div className="copyright">© 2024 Your Name</div>
+      <div className="flex justify-center items-center bg-blue-500 text-white p-4">© 2024 Allen Stevens</div>
       {/* Add social media links here */}
     </footer>
   );
 };
 
 export default Footer;
+

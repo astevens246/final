@@ -5,7 +5,7 @@ import Navigation from './Navigation.js';
 const Header = () => {
   return (
     <header>
-      <div className="logo">Your Logo</div>
+      <div className="logo">Logo image</div>
       <Navigation />
     </header>
   );
